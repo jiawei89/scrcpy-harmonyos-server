@@ -1,0 +1,50 @@
+{
+  "app": {
+    "products": [
+      {
+        "name": "default",
+        "compileSdkVersion": "6.0.2(22)",
+        "compatibleSdkVersion": "6.0.2(22)",
+        "targetSdkVersion": "6.0.2(22)",
+        "runtimeOS": "HarmonyOS"
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\lenovo\\.ohos\\config\\default_scrcpy-harmonyos-server-main_uPk9W-KPiBycb8z-gnN3KZHTlQAN4bgc04t_ZswsjCE=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B4C15D98F0CE9293F72E7766AC37427E27B58E30A073C938A73FCAE5ACFCADC135A966F78955E37",
+          "profile": "C:\\Users\\lenovo\\.ohos\\config\\default_scrcpy-harmonyos-server-main_uPk9W-KPiBycb8z-gnN3KZHTlQAN4bgc04t_ZswsjCE=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\lenovo\\.ohos\\config\\default_scrcpy-harmonyos-server-main_uPk9W-KPiBycb8z-gnN3KZHTlQAN4bgc04t_ZswsjCE=.p12",
+          "storePassword": "0000001B5D34D603BB90E50B5FDE31A95718EC4DE7F72585BF8269AA0F885288CC923678AFC787CF708D06"
+        }
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

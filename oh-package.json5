@@ -1,0 +1,19 @@
+{
+  "modelVersion": "6.0.2",
+  "name": "scrcpy-harmonyos-server",
+  "version": "1.0.0",
+  "description": "scrcpy 服务器鸿蒙版本 - HarmonyOS 6.0.2+",
+  "main": "",
+  "author": "jiawei89",
+  "license": "Apache-2.0",
+  "dependencies": {},
+  "devDependencies": {
+    "@ohos/hypium": "1.0.13"
+  },
+  "harmony": {
+    "bundleName": "com.example.scrcpyserver",
+    "vendor": "example",
+    "versionCode": 1000000,
+    "versionName": "1.0.0"
+  }
+}

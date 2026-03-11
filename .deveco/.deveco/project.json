@@ -1,0 +1,8 @@
+{
+  "projectType": "HarmonyOSApplication",
+  "sdk": "HarmonyOS",
+  "language": "ArkTS",
+  "compileSdkVersion": 9,
+  "compatibleSdkVersion": 9,
+  "runtimeOS": "HarmonyOS"
+}

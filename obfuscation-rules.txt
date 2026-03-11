@@ -1,0 +1,58 @@
+# HarmonyOS 混淆规则文件
+# 保留类名和方法名，防止混淆导致运行时错误
+
+# 保留所有ArkUI组件类
+-keep class * extends ArkUIComponent
+-keep class * extends Component
+
+# 保留所有Ability类
+-keep class * extends Ability
+-keep class * extends UIAbility
+
+# 保留所有服务类
+-keep class * extends ServiceExtensionAbility
+-keep class * extends DataAbility
+
+# 保留所有EntryAbility相关类
+-keep class EntryAbility
+-keep class * extends EntryAbility
+
+# 保留所有屏幕捕获相关类
+-keep class * extends AVScreenCapture
+-keep class * extends ScreenCaptureService
+
+# 保留所有视频编码相关类
+-keep class * extends VideoEncoder
+-keep class * extends VideoEncoderService
+
+# 保留所有网络相关类
+-keep class * extends Socket
+-keep class * extends SocketServer
+
+# 保留所有输入控制相关类
+-keep class * extends InputController
+
+# 保留所有HarmonyOS系统API
+-keep class ohos.** { *; }
+
+# 保留所有系统权限相关的方法
+-keepclassmembers class * {
+    public void requestPermissionsFromUser(String[], int);
+    public void onRequestPermissionsFromUserResult(int, String[], int[]);
+}
+
+# 保留所有生命周期方法
+-keepclassmembers class * {
+    public void onCreate(ohos.aafwk.ability.AbilitySlice);
+    public void onActive();
+    public void onForeground(ohos.aafwk.content.Intent);
+    public void onBackground();
+    public void onInactive();
+    public void onStop();
+    public void onDestroy();
+    public void aboutToAppear();
+    public void aboutToDisappear();
+}
+
+# 保留所有注解
+-keepattributes *Annotation*

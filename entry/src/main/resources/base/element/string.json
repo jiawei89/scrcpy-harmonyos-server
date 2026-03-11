@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "scrcpy 服务器 - 鸿蒙投屏控制"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "scrcpy 服务器主入口"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "scrcpy Server"
+    },
+    {
+      "name": "capture_screen_reason",
+      "value": "需要屏幕捕获权限以实现投屏功能"
+    },
+    {
+      "name": "float_window_reason",
+      "value": "需要悬浮窗权限以显示控制界面"
+    },
+    {
+      "name": "clipboard_reason",
+      "value": "需要剪贴板权限以实现跨设备复制粘贴"
+    }
+  ]
+}

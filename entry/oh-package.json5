@@ -1,0 +1,9 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "scrcpy 服务器模块",
+  "main": "",
+  "author": "jiawei89",
+  "license": "Apache-2.0",
+  "dependencies": {}
+}

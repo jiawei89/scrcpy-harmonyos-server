@@ -1,0 +1,8 @@
+{
+  "projectUpgrade": {
+    "sourceSdkVersion": "6.0.2",
+    "targetSdkVersion": "9",
+    "upgradeType": "HarmonyOSApplication",
+    "modules": ["entry"]
+  }
+}

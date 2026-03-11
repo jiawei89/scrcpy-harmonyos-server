@@ -1,0 +1,12 @@
+{
+  "name": "scrcpy-harmonyos-server",
+  "version": "1.0.0",
+  "description": "scrcpy 服务器鸿蒙版本 - HarmonyOS 6.0.2+",
+  "scripts": {
+    "build": "hvigorw assembleHap",
+    "clean": "hvigorw clean",
+    "test": "hvigorw test"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
